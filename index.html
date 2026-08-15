@@ -6,17 +6,13 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="An all-in-one AI assistant app.">
   <meta name="google-site-verification" content="HhuSB2fDTRhAe9mzmyd_brrq52RW0Gc5zlyOiAdfRI4" />
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="./manifest.json">
   <title>KING AI</title>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js');
-      });
-    }
-  </script>
 </head>
 <body>
   <div id="root"></div>
+
+  <!-- Note: Make sure your JS file name matches what is uploaded in your GitHub repo -->
+  <script type="module" src="./main.js"></script>
 </body>
 </html>
