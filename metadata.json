@@ -1,0 +1,6 @@
+{
+  "name": "KING AI",
+  "description": "KING AI - Advanced ChatGPT-like AI Assistant with Image Creator, Smart Tools & Multimodal Intelligence",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
